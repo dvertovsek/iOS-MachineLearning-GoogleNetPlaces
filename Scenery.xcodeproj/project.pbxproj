@@ -7,25 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0549648205FB9A70021FFFA /* SuggestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0549647205FB9A70021FFFA /* SuggestionCell.swift */; };
+		C054964B205FC9830021FFFA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054964A205FC9830021FFFA /* Theme.swift */; };
+		C0549650205FD95A0021FFFA /* LeftCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C054964F205FD95A0021FFFA /* LeftCollectionViewFlowLayout.swift */; };
+		C0549652205FDD840021FFFA /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C0549651205FDD840021FFFA /* GoogLeNetPlaces.mlmodel */; };
 		C0CD140620598D510040C665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD140520598D510040C665 /* AppDelegate.swift */; };
-		C0CD140820598D510040C665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD140720598D510040C665 /* ViewController.swift */; };
-		C0CD140B20598D510040C665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CD140920598D510040C665 /* Main.storyboard */; };
+		C0CD140820598D510040C665 /* SceneryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD140720598D510040C665 /* SceneryViewController.swift */; };
 		C0CD140D20598D510040C665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CD140C20598D510040C665 /* Assets.xcassets */; };
-		C0CD141020598D510040C665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CD140E20598D510040C665 /* LaunchScreen.storyboard */; };
+		C0CD142020598DB70040C665 /* Recognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CD141E20598DB70040C665 /* Recognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0CD142320598DB70040C665 /* Recognizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CD141C20598DB70040C665 /* Recognizer.framework */; };
+		C0CD142420598DB70040C665 /* Recognizer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0CD141C20598DB70040C665 /* Recognizer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0CD142A20598DDF0040C665 /* Recognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD142920598DDF0040C665 /* Recognizer.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C0CD142120598DB70040C665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0CD13FA20598D510040C665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0CD141B20598DB70040C665;
+			remoteInfo = Recognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0CD142820598DB70040C665 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C0CD142420598DB70040C665 /* Recognizer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C0549647205FB9A70021FFFA /* SuggestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionCell.swift; sourceTree = "<group>"; };
+		C054964A205FC9830021FFFA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C054964F205FD95A0021FFFA /* LeftCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		C0549651205FDD840021FFFA /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		C0CD140220598D510040C665 /* Scenery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scenery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CD140520598D510040C665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0CD140720598D510040C665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C0CD140A20598D510040C665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0CD140720598D510040C665 /* SceneryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneryViewController.swift; sourceTree = "<group>"; };
 		C0CD140C20598D510040C665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C0CD140F20598D510040C665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0CD141120598D510040C665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CD141C20598DB70040C665 /* Recognizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Recognizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CD141E20598DB70040C665 /* Recognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recognizer.h; sourceTree = "<group>"; };
+		C0CD141F20598DB70040C665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CD142920598DDF0040C665 /* Recognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C0CD13FF20598D510040C665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CD142320598DB70040C665 /* Recognizer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CD141820598DB70040C665 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,10 +79,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0549649205FC9780021FFFA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				C054964A205FC9830021FFFA /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		C054964C205FCA890021FFFA /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C0549647205FB9A70021FFFA /* SuggestionCell.swift */,
+				C054964F205FD95A0021FFFA /* LeftCollectionViewFlowLayout.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		C0CD13F920598D510040C665 = {
 			isa = PBXGroup;
 			children = (
 				C0CD140420598D510040C665 /* Scenery */,
+				C0CD141D20598DB70040C665 /* Recognizer */,
 				C0CD140320598D510040C665 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				C0CD140220598D510040C665 /* Scenery.app */,
+				C0CD141C20598DB70040C665 /* Recognizer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,17 +117,39 @@
 		C0CD140420598D510040C665 /* Scenery */ = {
 			isa = PBXGroup;
 			children = (
+				C054964C205FCA890021FFFA /* CollectionView */,
+				C0549649205FC9780021FFFA /* Theme */,
 				C0CD140520598D510040C665 /* AppDelegate.swift */,
-				C0CD140720598D510040C665 /* ViewController.swift */,
-				C0CD140920598D510040C665 /* Main.storyboard */,
+				C0549651205FDD840021FFFA /* GoogLeNetPlaces.mlmodel */,
+				C0CD140720598D510040C665 /* SceneryViewController.swift */,
 				C0CD140C20598D510040C665 /* Assets.xcassets */,
-				C0CD140E20598D510040C665 /* LaunchScreen.storyboard */,
 				C0CD141120598D510040C665 /* Info.plist */,
 			);
 			path = Scenery;
 			sourceTree = "<group>";
 		};
+		C0CD141D20598DB70040C665 /* Recognizer */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD142920598DDF0040C665 /* Recognizer.swift */,
+				C0CD141E20598DB70040C665 /* Recognizer.h */,
+				C0CD141F20598DB70040C665 /* Info.plist */,
+			);
+			path = Recognizer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C0CD141920598DB70040C665 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CD142020598DB70040C665 /* Recognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C0CD140120598D510040C665 /* Scenery */ = {
@@ -74,15 +159,35 @@
 				C0CD13FE20598D510040C665 /* Sources */,
 				C0CD13FF20598D510040C665 /* Frameworks */,
 				C0CD140020598D510040C665 /* Resources */,
+				C0CD142820598DB70040C665 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C0CD142220598DB70040C665 /* PBXTargetDependency */,
 			);
 			name = Scenery;
 			productName = Scenery;
 			productReference = C0CD140220598D510040C665 /* Scenery.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C0CD141B20598DB70040C665 /* Recognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CD142520598DB70040C665 /* Build configuration list for PBXNativeTarget "Recognizer" */;
+			buildPhases = (
+				C0CD141720598DB70040C665 /* Sources */,
+				C0CD141820598DB70040C665 /* Frameworks */,
+				C0CD141920598DB70040C665 /* Headers */,
+				C0CD141A20598DB70040C665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recognizer;
+			productName = Recognizer;
+			productReference = C0CD141C20598DB70040C665 /* Recognizer.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +201,11 @@
 				TargetAttributes = {
 					C0CD140120598D510040C665 = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C0CD141B20598DB70040C665 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -114,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				C0CD140120598D510040C665 /* Scenery */,
+				C0CD141B20598DB70040C665 /* Recognizer */,
 			);
 		};
 /* End PBXProject section */
@@ -123,9 +234,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CD141020598D510040C665 /* LaunchScreen.storyboard in Resources */,
 				C0CD140D20598D510040C665 /* Assets.xcassets in Resources */,
-				C0CD140B20598D510040C665 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CD141A20598DB70040C665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +252,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CD140820598D510040C665 /* ViewController.swift in Sources */,
+				C0CD140820598D510040C665 /* SceneryViewController.swift in Sources */,
+				C0549650205FD95A0021FFFA /* LeftCollectionViewFlowLayout.swift in Sources */,
 				C0CD140620598D510040C665 /* AppDelegate.swift in Sources */,
+				C054964B205FC9830021FFFA /* Theme.swift in Sources */,
+				C0549648205FB9A70021FFFA /* SuggestionCell.swift in Sources */,
+				C0549652205FDD840021FFFA /* GoogLeNetPlaces.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CD141720598DB70040C665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CD142A20598DDF0040C665 /* Recognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C0CD140920598D510040C665 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0CD140A20598D510040C665 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		C0CD142220598DB70040C665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0CD141B20598DB70040C665 /* Recognizer */;
+			targetProxy = C0CD142120598DB70040C665 /* PBXContainerItemProxy */;
 		};
-		C0CD140E20598D510040C665 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0CD140F20598D510040C665 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C0CD141220598D510040C665 /* Debug */ = {
@@ -273,6 +390,7 @@
 		C0CD141520598D510040C665 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Scenery/Info.plist;
@@ -287,6 +405,7 @@
 		C0CD141620598D510040C665 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Scenery/Info.plist;
@@ -295,6 +414,55 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0CD142620598DB70040C665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Recognizer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dare.Recognizer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0CD142720598DB70040C665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Recognizer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dare.Recognizer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -315,6 +483,15 @@
 			buildConfigurations = (
 				C0CD141520598D510040C665 /* Debug */,
 				C0CD141620598D510040C665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CD142520598DB70040C665 /* Build configuration list for PBXNativeTarget "Recognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CD142620598DB70040C665 /* Debug */,
+				C0CD142720598DB70040C665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
